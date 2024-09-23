@@ -16,7 +16,6 @@ public class DifferentScope {
         example.showLocalvariable();
         System.out.println("My local variable is: " + example.instanceVariable + " " +example.instanceVariableString);
 
-        
     }
     
 }
