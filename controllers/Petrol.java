@@ -1,7 +1,7 @@
 public class Petrol {
 
     //guna private type for data for car model and petrol usage
-    //
+    //encapsulation 
 
     private String model;
     private double petrol;

@@ -23,6 +23,5 @@ public class DateTimeExample {
         System.out.println(formattedDT);
         System.out.println(myAge);
 
-
     }
 }
