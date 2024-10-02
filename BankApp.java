@@ -44,7 +44,7 @@ public class BankApp {
             System.out.println("2. Deposit Money");
             System.out.println("3. Withdraw Money");
             System.out.println("4. Exit");
-            System.out.print("Choose option between (1-4): ");
+            System.out.print("Choose option between 1 to 4: ");
 
             int choice = scanner.nextInt();
 
@@ -71,7 +71,7 @@ public class BankApp {
                     return;
 
                 default:
-                    System.out.println("Invalid choice. Please select a valid option between (1-4)");
+                    System.out.println("Invalid choice. Please select a valid option between 1 to 4");
             }
         }
     }
