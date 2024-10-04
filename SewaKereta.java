@@ -68,7 +68,7 @@ class Motorcycle extends Vehicle {
 public class SewaKereta {
     public static void main(String[] args) { //instance
         Car car = new Car("Honda", "City", 2020, 50.0, 5, 4);
-        Motorcycle motorcycle = new Motorcycle("Yamaha", "MT-07", 2019, 30.0, 689);
+        Motorcycle motorcycle = new Motorcycle("Yamaha", "LC", 2019, 30.0, 689);
 
         int rentalDays = 3; //rental cost
         double carRentalCost = car.calculateRentalCost(rentalDays);
